@@ -18,6 +18,10 @@ class App extends Component{
             messagingSenderId: "730258058633"
         };
         firebase.initializeApp(config);
+
+        console.ignoredYellowBox = [
+            'Setting a timer'
+        ];
     }
 
     render() {
